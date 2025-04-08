@@ -39,17 +39,21 @@ procedure empleadosConcretos(var arch:arch);
  begin
     esCorrecto:=(nombre=nombreApell)or(apellido=nombreApell);
  end;
-var nombreApell:String; e:empleado;
+var nombreApell:String; e:empleado; aux:boolean;
 begin
      writeln('Ingrese el nombre o apellido');
      readln(nombreApell);
      writeln('Empleados:');
      reset(arch);
+     aux:=false;
      while(not EOF(arch))do begin
         read(arch,e);
-        if(esCorrecto(e.nombre,e.apellido,nombreApell))then
+        if(esCorrecto(e.nombre,e.apellido,nombreApell))then begin
            imprimirEmpleado(e);
+           aux:=true;
+        end;
      end;
+     if(not aux)then writeln('Empleado no encontrado');
      close(arch);
 end;
 
@@ -87,7 +91,7 @@ var
 begin
     writeln('Ingrese nombre de archivo');
     readln(nombre);
-    assign(archivo,nombre);   //C:\Users\treji\Desktop\FOD\prueba.txt
+    assign(archivo,nombre);
     reset(archivo);
     leerEmpleado(e);
     while(e.apellido<>'fin')do begin

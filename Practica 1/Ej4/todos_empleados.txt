@@ -1,0 +1,4 @@
+Numero de empleado: 298. Apellido y nombre: Damborearena Juan. Edad: 25. DNI:843283
+Numero de empleado: 829. Apellido y nombre: Escudero Ester. Edad: 88. DNI:74327
+Numero de empleado: 3424. Apellido y nombre: Mariano Walter. Edad: 75. DNI:41234
+Numero de empleado: 373234. Apellido y nombre: Taddei Facundo. Edad: 20. DNI:00
