@@ -1,0 +1,12 @@
+17  2.999900000000000E+002 Fantasia
+Harry Potter
+2  1.800000000000000E+003  Policial
+El túnel
+3  2.200000000000000E+003  Romance
+Don Segundo Sombra
+4  2.700000000000000E+003  CienciaFi
+La invención de Mor
+5  2.100000000000000E+003  Históric
+Zama
+10  1.000000000000000E+002 Suspenso
+Missery
